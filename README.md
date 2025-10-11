@@ -2,7 +2,6 @@
 
 A **modern product landing page** for the **DJI Mavic 4 Pro** drone. This front-end project is designed to simulate a professional e-commerce product page, with interactive elements, comparisons, reviews, and accessory recommendations.
 
-> 🌐 **image**: [drone-product-page.vercel.app](https://drone-product-page.vercel.app/)
 
 ---
 
