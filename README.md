@@ -13,7 +13,7 @@ A **modern product landing page** for the **DJI Mavic 4 Pro** drone. This front-
 - ⭐ Customer rating breakdown and verified reviews
 - 🧩 Accessory & related product section
 - 💡 Built with **HTML5**, **CSS3**, and **Font Awesome**
-
+- 📱 Fully **responsive** layout
 
 ---
 
