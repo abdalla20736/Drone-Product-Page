@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  width: 1232px;
+  width: 64.6%; /*1232px*/
   margin: auto;
 }
 
@@ -517,7 +517,7 @@ nav .logo {
 
 .winner {
   margin: auto;
-  width: 28%;
+  width: 350px;
   padding: 16px 16px 16px 32px;
   background-color: white;
   border-radius: 15px;
@@ -552,11 +552,13 @@ nav .logo {
 }
 
 .rating-section {
+  width: 100%;
   background-color: var(--odd-section-color);
   padding-block: 80px;
 }
 .rating-section .rating-review-body {
   margin-block: 65px 0;
+  width: 100%;
 }
 
 .rating-review-body .rating {
@@ -765,7 +767,7 @@ nav .logo {
   font-weight: 600;
   font-size: 16px;
   transition: 0.2s all;
-  margin-top: 56px;
+  margin-top: 42px;
 }
 
 .load-more-reviews-btn:hover {
@@ -781,17 +783,21 @@ nav .logo {
 .complete-your-setup-section .products-list {
   margin-block-start: 64px;
   width: 100%;
+  text-align: center;
 }
 
 .complete-your-setup-section .products-list .product {
+  text-align: left;
   display: inline-block;
   vertical-align: top;
   width: 23%;
   height: 432px;
   background-color: white;
   border: 2px solid var(--border-color);
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 24px;
+  line-height: 24px;
+  max-width: 284px;
 }
 
 .complete-your-setup-section .products-list .product:first-child {
@@ -829,19 +835,24 @@ nav .logo {
   margin-top: 0;
 }
 
-.complete-your-setup-section .products-list .product {
-  line-height: 24px;
-}
-
 .complete-your-setup-section .products-list .product:hover img {
   transform: scale(1.05);
 }
 
+.complete-your-setup-section .products-list .product .purchase-info {
+  width: 100%;
+}
+
 .complete-your-setup-section .products-list .product .price {
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 38%;
 }
 .complete-your-setup-section .products-list .product .add-to-cart-btn {
-  float: right;
+  width: 60%;
+  display: inline-block;
+  text-align: right;
 }
 .complete-your-setup-section .products-list .product .price span {
   font-size: 24px;
@@ -889,7 +900,7 @@ nav .logo {
   line-height: 24px;
   font-weight: 600;
   font-size: 16px;
-  margin-top: 56px;
+  margin-top: 16px;
   transition: 0.2s all;
 }
 
@@ -924,6 +935,9 @@ footer .social-links .social-icon {
   font-size: 16px;
   border-radius: 8px;
   transition: 0.2s all;
+}
+footer .social-links p {
+  width: 100%;
 }
 
 footer .social-links .facebook:hover {
