@@ -2,7 +2,7 @@
 
 A **modern product landing page** for the **DJI Mavic 4 Pro** drone. This front-end project is designed to simulate a professional e-commerce product page, with interactive elements, comparisons, reviews, and accessory recommendations.
 
-**Live demo:** [https://drone-product-page-delta.vercel.app/](https://drone-product-page-delta.vercel.app/)
+**Live demo:** [https://fit-core-gym-landing-page.netlify.app/](https://fit-core-gym-landing-page.netlify.app/)
 
 ---
 
